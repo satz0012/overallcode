@@ -17,7 +17,7 @@ public class CreateLeadPage extends ProjectSpecificMethods {
 	public CreateLeadPage(RemoteWebDriver driver, ExtentTest node, ExtentTest test){
 		this.driver = driver;
 		this.node = node;
-		this.test = test;
+		this.test = test;    
 		PageFactory.initElements(driver, this);		
 	}
 
